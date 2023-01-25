@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Bilal Aytekin / Personal Website"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Bilal Aytekin"
 description              : &description ""
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Bilal Aytekin"
   avatar           : "profile.png"
-  bio              : "Senior undergraduate at Bogazici University, majoring in Computer Engineering and Mathematics"
+  bio              : "Senior undergrad at Bogazici University"
   location         : "Istanbul, Turkey"
   employer         :
   arxiv            : "https://arxiv.org/search/math?searchtype=author&query=Aytekin%2C+B"
