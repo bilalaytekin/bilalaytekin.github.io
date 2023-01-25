@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Welcome to my personal website"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my website
+Welcome to my personal website
 ======
 I am a senior undergradaute at Bogazici University, majoring in Computer Engineering and Mathematics.
 
