@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -27,6 +27,6 @@ Talks
   
 Service
 ======
-  <ul>{% for post in site.teaching %}
+  <ul>{% for post in site.service %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>

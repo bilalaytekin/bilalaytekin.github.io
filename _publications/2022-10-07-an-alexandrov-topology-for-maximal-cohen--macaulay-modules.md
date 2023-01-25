@@ -6,10 +6,8 @@ excerpt: 'Using the theory of cohomology annihilators, we define a family of top
 date: 2022-10-07
 venue: 'arXiv'
 paperurl: 'https://arxiv.org/abs/2210.03532'
-citation: 'M Akdenizli, B Aytekin, B Çetin, Ö Esentepe - arXiv preprint'
+citation: 'with Mert Akdenizli, Baran Çetin, and Özgür Esentepe'
 ---
 Using the theory of cohomology annihilators, we define a family of topologies on the set of isomorphism classes of maximal Cohen-Macaulay modules over a Gorenstein ring. We study compactness of these topologies.
 
 [Download paper here](http://bilalaytekin.github.io/files/paper1.pdf)
-
-Recommended citation: M Akdenizli, B Aytekin, B Çetin, Ö Esentepe - arXiv preprint

@@ -1,9 +1,9 @@
 ---
 title: "Grader"
-collection: teaching
+collection: service
 type: "Grader"
-permalink: /teaching/2022-fall-grader
-venue: "Bogazici University, Computer Engineerin Department"
+permalink: /service/2022-fall-grader
+venue: "Bogazici University, Computer Engineering Department"
 date: 2022-10-01
 location: "Istanbul, Turkey"
 ---
