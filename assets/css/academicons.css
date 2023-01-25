@@ -178,10 +178,10 @@
 .ai-publons-square:before {
   content: "\e851";
 }
-.ai-pubmed:before {
+.ai-arxiv:before {
   content: "\e852";
 }
-.ai-pubmed-square:before {
+.ai-arxiv-square:before {
   content: "\e853";
 }
 .ai-researchgate:before {
