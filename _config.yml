@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Bilal Aytekin / Personal Website"
 title_separator          : "-"
 name                     : &name "Bilal Aytekin"
-description              : &description "Senior undergraduate at Bogazici University"
+description              : &description ""
 url                      : https://bilalaytekin.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "bilalaytekin/bilalaytekin.github.io"
@@ -85,7 +85,7 @@ author:
   bio              : "Senior undergraduate at Bogazici University, majoring in Computer Engineering and Mathematics"
   location         : "Istanbul, Turkey"
   employer         :
-  arxiv           : 
+  arxiv            : "https://arxiv.org/search/math?searchtype=author&query=Aytekin%2C+B"
   googlescholar    : 
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
