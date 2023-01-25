@@ -8,8 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my personal website
-======
 I am a senior undergradaute at Bogazici University, majoring in Computer Engineering and Mathematics.
 
-I am currently applying to PhD programs in the United States.
+I am interested in number theory, arithmetic geometry, and formalization.
