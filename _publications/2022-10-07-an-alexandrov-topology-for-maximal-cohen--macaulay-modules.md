@@ -10,4 +10,4 @@ citation: 'with Mert Akdenizli, Baran Çetin, and Özgür Esentepe'
 ---
 Using the theory of cohomology annihilators, we define a family of topologies on the set of isomorphism classes of maximal Cohen-Macaulay modules over a Gorenstein ring. We study compactness of these topologies.
 
-[Download paper here](http://bilalaytekin.github.io/files/paper1.pdf)
+[See paper here.](https://arxiv.org/abs/2210.03532)
