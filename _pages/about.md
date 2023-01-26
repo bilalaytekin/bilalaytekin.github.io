@@ -10,6 +10,6 @@ redirect_from:
 
 I am a senior undergradaute at Bogazici University, majoring in Computer Engineering and Mathematics. I am interested in number theory, arithmetic geometry, and formalization.
 
-[Here](https://bilalaytekin.github.io/files/Bilal_Aytekin_CV.pdf) you can find my CV.
+On this website are my CV and our recent preprint along with some of the notes from my classes.
 
 You can contact me at ``bilal (dot) aytekin (at) boun (dot) edu (dot) tr``.
