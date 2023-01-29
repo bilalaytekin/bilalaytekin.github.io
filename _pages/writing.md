@@ -14,3 +14,8 @@ author_profile: true
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
+
+## Notes
+
+- MATH525: [Algebraic Number Theory (Spring '22)](../files/math525_notes.pdf).
+- MATH522: [Algebra I (Fall '22)](../files/math522_notes.pdf).
