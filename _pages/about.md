@@ -8,8 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I am a senior undergraduate at Bogazici University, majoring in Computer Engineering and Mathematics. I am interested in number theory, arithmetic geometry, and formalization.
+I have completed my undergrad at Bogazici University, studying Computer Engineering and Mathematics; and I am soon to be a graduate student at the University of Maryland. I am interested in number theory, arithmetic geometry, and formalization.
 
-On this website are my CV and our recent preprint along with some of the notes from my classes.
+On this website are my CV and our recent paper along with some of the lecture notes I took in classes.
 
-You can contact me at ``bilal (dot) aytekin (at) boun (dot) edu (dot) tr``.
+You can contact me at ``baytekin (at) umd (dot) edu``.
