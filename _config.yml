@@ -82,13 +82,13 @@ analytics:
 author:
   name             : "Bilal Aytekin"
   avatar           : "profile.png"
-  bio              : "(Soon to be a) Grad student at University of Maryland"
-  location         : "Istanbul, Turkey"
+  bio              : "First-year Ph.D. student at the University of Maryland"
+  location         : "College Park, MD"
   employer         :
   arxiv            : "https://arxiv.org/search/math?searchtype=author&query=Aytekin%2C+B"
   googlescholar    : 
   email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     :
   uri              :
   bitbucket        :
   codepen          :
@@ -100,13 +100,13 @@ author:
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      :
   lastfm           :
   linkedin         :
   orcid            : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    :
   steam            :
   tumblr           :
   twitter          :
