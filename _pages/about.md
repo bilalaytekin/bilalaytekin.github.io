@@ -12,6 +12,6 @@ I am a first-year Ph.D. student at the University of Maryland. I did my undergra
 
 On this website are my CV, our recent paper "An Alexandrov Topology for Maximal Cohen-Macaulay Modules", and some of the lecture notes I took.
 
-I'm into cycling (recently upgraded to a Diamondback Arden 3, find me on [Strava](https://www.strava.com/athletes/119966249)!), [chess](https://lichess.org/@/hungouttodry), and [movies.](https://letterboxd.com/bilalaytekin/)
+I'm into cycling, [chess](https://lichess.org/@/hungouttodry), and [movies.](https://letterboxd.com/bilalaytekin/)
 
 You can contact me at ``baytekin (circled 'a') umd (point) edu`` or via one of my profiles above.
