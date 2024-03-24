@@ -10,7 +10,7 @@ redirect_from:
 
 I am a first-year Ph.D. student at the University of Maryland. I did my undergrad at Bogazici University, studying Computer Engineering and Mathematics. I am interested in number theory, arithmetic geometry, and formalization.
 
-On this website are my CV, our recent paper "An Alexandrov Topology for Maximal Cohen-Macaulay Modules", and some of the lecture notes I took.
+On this website are my CV, our recent paper "An Alexandrov Topology for Maximal Cohen-Macaulay Modules", some of the lecture notes I took, and my teaching history.
 
 I'm into cycling, [chess](https://lichess.org/@/hungouttodry), and [movies.](https://letterboxd.com/bilalaytekin/)
 
