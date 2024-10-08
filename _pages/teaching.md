@@ -7,3 +7,4 @@ author_profile: true
 
 - Calculus II, Fall '23.
 - Calculus III, Spring '24.
+- Calculus II, Fall '24.
