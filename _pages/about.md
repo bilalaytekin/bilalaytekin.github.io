@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am a fourth-year Ph.D. student in mathematics at the [University of Maryland,](https://www-math.umd.edu/) working with [Dori Bejleri.](https://math.umd.edu/~dbejleri/) I was an undergraduate at [Bogazici University.](https://bogazici.edu.tr/en-US/Index)
+Hi! I am a fourth-year Ph.D. student in mathematics at the [University of Maryland](https://www-math.umd.edu/), working with [Dori Bejleri](https://math.umd.edu/~dbejleri/). I was an undergraduate at [Bogazici University](https://bogazici.edu.tr/en-US/Index).
 
 I am interested in number theory, arithmetic geometry, and formalization.
 
