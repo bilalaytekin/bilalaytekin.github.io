@@ -11,7 +11,8 @@ redirect_from:
 
 Education
 ======
-* B.S. in Computer Engineering and Mathematics, Bogazici University, 2023 (expected)
+* B.S. in Computer Engineering and Mathematics, Bogazici University, 2023
+* Ph.D. in Mathematics, University of Maryland, 2023-
 
 Publications
 ======

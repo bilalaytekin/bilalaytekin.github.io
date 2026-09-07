@@ -17,5 +17,6 @@ author_profile: true
 
 ## Notes
 
+- [Bachelor's thesis](../files/report.pdf).
 - [Algebraic Number Theory (Spring '22)](../files/math525_notes.pdf).
 - [Algebra I (Fall '22)](../files/math522_notes.pdf).
