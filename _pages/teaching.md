@@ -9,7 +9,7 @@ author_profile: true
 - Calculus III, Spring '24.
 - Calculus II, Fall '24.
 - Differential Equations, Spring '25.
-- Linear Algebra, Spring '26
+- Linear Algebra, Spring '26.
 
 <b>Instructor:</b>
 - Introduction to Math Modeling and Probability, Fall '25.
