@@ -327,8 +327,11 @@ table.courses th {
 table.courses td.term { font-family: var(--font-sans); font-size: .92rem; color: var(--fg-muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
 table.courses td.role { font-family: var(--font-sans); font-size: .92rem; color: var(--fg-muted); white-space: nowrap; }
 /* Fixed column widths so consecutive tables line up. */
-table.courses th:first-child { width: 8rem; }
-table.courses th:last-child { width: 12rem; }
+table.courses th.col-term { width: 8rem; }
+table.courses th.col-role { width: 12rem; }
+.content h2 + h3 { margin-top: 0; }
+.content h3 + .table-wrap { margin-top: .25rem; }
+.table-wrap + h3 { margin-top: 1.4rem; }
 
 /* Footer --------------------------------------------------------------------- */
 .site-footer {
@@ -360,8 +363,8 @@ table.courses th:last-child { width: 12rem; }
   .contact { grid-column: 1 / -1; margin-top: .75rem; padding-top: .9rem; border-top: 1px solid var(--rule); }
   .pub-title { font-size: 1.05rem; }
   table.courses td.role { white-space: normal; }
-  table.courses th:first-child { width: 6.5rem; }
-  table.courses th:last-child { width: auto; }
+  table.courses th.col-term { width: 6.5rem; }
+  table.courses th.col-role { width: auto; }
 }
 
 @media (prefers-reduced-motion: no-preference) {
