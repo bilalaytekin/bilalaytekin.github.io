@@ -1,31 +1,88 @@
-A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
+# Bilal Aytekin — personal academic website
 
-I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
+Plain HTML and CSS for GitHub Pages: no Jekyll, no build step, no framework. Each page is a single
+small HTML file, so navigation is effectively instant, and the site has a light/dark toggle.
 
-### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
+Live at <https://bilalaytekin.github.io>.
 
-# Instructions
+## Pages and files
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+| File | Contents |
+| --- | --- |
+| `index.html` | About, research interests, publications and preprints |
+| `talks.html` | Talks given, conferences and workshops attended |
+| `teaching.html` | Teaching at UMD and Boğaziçi, service |
+| `notes.html` | B.Sc. thesis and lecture notes |
+| `404.html` | Not-found page (uses absolute paths because it can be served at any URL) |
+| `assets/style.css` | All styling; light and dark themes share one set of color tokens |
+| `assets/site.js` | Theme toggle, copy-email button, hover prefetch fallback |
+| `assets/photo.jpg`, `photo.webp` | Portrait, resized to 480×600 (45 KB / 27 KB instead of the old 4000×6000 original) |
+| `assets/favicon.svg` | Browser-tab icon |
+| `files/` | CV, résumé, thesis and lecture-note PDFs (file names unchanged, so old links still work) |
+| `cv/`, `teaching/`, `talks/`, `writing/`, `about/`, `resume/`, `publication/…` | Tiny redirect pages so URLs from the old Jekyll site (and search results) still land somewhere |
+| `sitemap.xml`, `robots.txt` | Help search engines find the pages |
+| `.nojekyll` | Tells GitHub Pages to serve the files as they are |
 
-See more info at https://academicpages.github.io/
+## Preview locally
 
-## To run locally (not on GitHub Pages, to serve on your own computer)
+```sh
+python3 -m http.server 8000
+```
 
-1. Clone the repository and made updates as detailed above
-1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
-1. Run `bundle clean` to clean up the directory (no need to run `--force`)
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+Then open <http://localhost:8000>.
 
-# Changelog -- bugfixes and enhancements
+## Routine updates
 
-There is one logistical issue with a ready-to-fork template theme like academic pages that makes it a little tricky to get bug fixes and updates to the core theme. If you fork this repository, customize it, then pull again, you'll probably get merge conflicts. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch. 
+- **CV and résumé.** In the LaTeX project run `make site SITE=path/to/this/repo` (or copy
+  `cv.pdf` to `files/Bilal_Aytekin_CV.pdf` and `resume.pdf` to `files/Bilal_Aytekin_Resume.pdf`).
+  Then update the "November 2026" strings: search all HTML files for `November 2026`.
+- **Papers.** Add an `<li class="pub">` block at the top of the `<ol class="pubs">` list in
+  `index.html`, numbered one higher than the current first entry. Abstracts go in a
+  `<details class="abstract">` block. For an arXiv paper, the BibTeX link is
+  `https://arxiv.org/bibtex/<arXiv id>`.
+- **Talks, conferences, courses.** Copy an existing list item (`talks.html`) or table row
+  (`teaching.html`) and edit it. Lists are in reverse chronological order.
+- **Header, sidebar, footer.** These are repeated in each of the four main pages so that every
+  page loads as one file with nothing to assemble. If you change one (say, the address), make the
+  same change in all four; a search-and-replace across `*.html` does it.
+- **Photo.** Replace `assets/photo.jpg` and `assets/photo.webp` with a 4:5 portrait about 480 px
+  wide. If the photo is ever missing, the sidebar hides the empty slot.
 
-To support this, all changes to the underlying code appear as a closed issue with the tag 'code change' -- get the list [here](https://github.com/academicpages/academicpages.github.io/issues?q=is%3Aclosed%20is%3Aissue%20label%3A%22code%20change%22%20). Each issue thread includes a comment linking to the single commit or a diff across multiple commits, so those with forked repositories can easily identify what they need to patch.
+## Improvements over the site this is modeled on
+
+- **Even faster clicks.** Chrome and Edge prerender a page the moment you hover its link
+  (Speculation Rules), so the click shows a page that is already rendered; other browsers
+  prefetch it on hover. PDFs are excluded so nothing large is fetched by accident.
+- **Smooth page changes.** In Chrome, Edge and Safari 18+ the reading column crossfades while
+  the header and sidebar stay put (CSS view transitions). It is off for anyone who has asked
+  their system for reduced motion.
+- **Dark mode details.** The mobile browser's address bar follows the theme, the choice is
+  remembered across pages, and it is applied before the first paint, so there is no white flash.
+- **Copy-email button** next to the spam-proofed address.
+- **BibTeX and code links** on each paper; long author lists fold into an "All authors" toggle.
+- **Search-engine metadata.** Each page has a canonical URL, an Open Graph preview (title,
+  description, photo) for links shared on Slack, X or email, and the home page has schema.org
+  `Person` data. There is also a sitemap.
+- **No MathJax download**, since none of the abstracts need it (add the script tag from the
+  original site to `index.html` if a future abstract uses `\( ... \)`).
+- **Old URLs keep working** through the redirect pages listed above.
+- **Optimized portrait** served as WebP, with a JPEG fallback.
+- **Print stylesheet** drops the navigation and theme button.
+
+## Publishing (replacing the old Jekyll site)
+
+```sh
+git clone https://github.com/bilalaytekin/bilalaytekin.github.io
+cd bilalaytekin.github.io
+git checkout -b redesign
+git rm -r -q .                         # remove the old Jekyll site (it stays in git history)
+unzip -o ../website.zip -d .           # the files from this folder, including .nojekyll
+git add -A
+git commit -m "Replace Jekyll theme with a static site"
+git push -u origin redesign
+```
+
+Check the preview locally, then merge `redesign` into `master` (on GitHub: open a pull request
+and merge it, or `git checkout master && git merge redesign && git push`). Under
+**Settings → Pages**, the source should be **Deploy from a branch**, branch `master`, folder
+`/ (root)`. The new site is live a minute or two after the push.
